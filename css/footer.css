@@ -1,0 +1,21 @@
+.footer__dev__info{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 0;
+    background-color: #000;
+}
+
+.footer_info{
+    font-family: var(--font);
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 1.2em;
+    color: blue;
+}
+
+.footer__dev__info a{
+    text-decoration: none;
+    color: #fff;
+}

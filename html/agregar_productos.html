@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="../css/reset.css">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/header.css">
+        <link rel="stylesheet" href="../css/contacto.css">
+        <link rel="stylesheet" href="../css/footer.css">
+        <link rel="stylesheet" href="../css/agregar_producto.css">
+        <link rel="shortcut icon" href="../resources/Icons/AluraGeek.svg" type="image/x-icon">
+        <title>Agregar Producto Nuevo</title>
+    </head>
+    <body>
+        <header class="header">
+            <div class="header_container">
+                <div class="header_elements">
+                    <a class="header_link-home" href="admin_page.html"><img class="header_logo"
+                            src="../resources/Logo/LogoAluraGeek.svg" alt="Logo AluraGeek"></a>
+                </div>
+                <a class="header_link-login" href="/html/admin_page.html"><button class="Header_Button-login">Menú
+                        Admin</button></a>
+            </div>
+        </header>
+        <main>
+            <form class="agregar_producto_formulario">
+                <h2 class="agregar_producto_titulo">Agregar Producto</h2>
+                <div class="agregar__form">
+                    <label class="agregar__info" for="image">URL de imagen</label>
+                    <input data-img class="agregar__input" type="url" name="imagen" id="image" pattern="(http(s?):)([/|.|\w|\s|-])*\.(?:jpg|gif|jpeg|png)" title="Agregue una URL .png, .jpeg o.jpg" required>
+                </div>
+                <div class="agregar__form">
+                    <span class="agregar__info">Categoria</span>
+                    <select class="agregar__categoria" name="categoria" id="categoria" data-seccion required>
+                        <option value="StarWars">Star Wars</option>
+                        <option value="Consolas">Consolas</option>
+                        <option value="Diversos">Diversos</option>
+                    </select>
+                </div>
+                <div class="agregar__form">
+                    <label class="agregar__info" for="nombreProducto">Nombre del producto</label>
+                    <input class="agregar__input" type="text" name="NombreProducto" id="nombreProducto" data-nombre required maxlength="20">
+                </div>
+                <div class="agregar__form">
+                    <label class="agregar__info" for="precioProducto">Precio del producto</label>
+                    <div class="agregar__precio">
+                        <p class="agregar__info divisa">$</p>
+                        <input class="agregar__input" type="number" name="precioProducto" id="precioProducto" data-precio step="0.01" required>
+                    </div>
+                </div>
+                <div class="agregar__form">
+                    <label class="agregar__info" for="descripcion">Descripción</label>
+                    <textarea class="agregar__input" name="descripcion" id="descripcion" rows="5" data-descripcion required maxlength="150"></textarea>
+                </div>
+                <button type="submit" class="agregar__btn">Agregar</button>
+            </form>
+        </main>
+        <footer>
+            <section class="contacto_container">
+                <div class="contacto_image_container">
+                    <img class="contacto_image" src="../resources/Logo/LogoAluraGeek.svg" alt="Logo Alura Geek">
+                </div>
+                <div class="contacto_menu">
+                    <a class="contacto_menu_link" href="#"><p class="contacto_menu_texto">Quienes somos</p></a>
+                    <a class="contacto_menu_link" href="#"><p class="contacto_menu_texto">Política de privacidad</p></a>
+                    <a class="contacto_menu_link" href="#"><p class="contacto_menu_texto">Programa de fidelidad</p></a>
+                    <a class="contacto_menu_link" href="#"><p class="contacto_menu_texto">Nuestras tiendas</p></a>
+                    <a class="contacto_menu_link" href="#"><p class="contacto_menu_texto">Quiero ser franquiciado</p></a>
+                    <a class="contacto_menu_link" href="#"><p class="contacto_menu_texto">Anuncie aquí</p></a>                        
+                </div>
+                <form class="contacto_mensaje_container" data-form-contacto>
+                    <h2 class="contacto_mensaje_titulo">Hable con nosotros</h2>
+                    <div class="contacto_input_container">
+                        <label class="contacto_info" for="Nombre"  >Nombre</label>
+                        <input class="contacto_input" type="text" id="Nombre" data-mensaje-nombre required maxlength="40">
+                    </div>
+                    <div class="contacto_input_container">
+                        <label class="contacto_info" for="Mensaje" >Escriba su mensaje</label>
+                        <textarea class="contacto_input input-mensaje" name="Mensaje" id="Mensaje" 
+                        data-mensaje-mensaje required maxlength="120"></textarea>
+                    </div>
+                    <button type="submit" class="contacto_boton_enviar" data-mensaje-btn>Enviar Mensaje</button>
+                </form>
+            </section>
+            <div class="footer__dev__info">
+                <a href="https://github.com/abonto">Augusto Bontomasi</a>
+            </div>
+        </footer>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script type="module" src="../js/agregarProductos.js"></script>
+        <script src="../js/form.js"></script>
+    </body>
+</html>

@@ -1,0 +1,13 @@
+:root {
+
+    --background: whitesmoke;
+    --placeholder:#8d8d8d;
+    --color_buscador: white;
+    --blue-color: #4b96fa;
+    --blue-color_opacidad: #4b97fa36;
+    --bluecolor_medio: #2a7ae4;
+    --bluecolor_oscuro: #13335e;
+    --bluecolor_fondo_claro: #eaf2fd;
+    --error-color: red;
+    --font: 'Montserrat', sans-serif;
+}
