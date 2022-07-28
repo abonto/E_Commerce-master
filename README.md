@@ -16,6 +16,11 @@ Para ello están pidiendo nuestra ayuda como desarrolladores, el e-commerce debe
 
 <b>Es muy importante que el sitio sea adaptable</b> para que los clientes puedan comprar fácilmente a través de dispositivos móviles.
 
+## Pages
+https://abonto.github.io/E_Commerce-master/
+
+servidor local json-server -w db.json
+
 ## Usuario
 mail@admin.com
 password Alura123
