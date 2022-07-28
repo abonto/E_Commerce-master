@@ -16,6 +16,11 @@ Para ello están pidiendo nuestra ayuda como desarrolladores, el e-commerce debe
 
 <b>Es muy importante que el sitio sea adaptable</b> para que los clientes puedan comprar fácilmente a través de dispositivos móviles.
 
-## Instalación
+## Pages
+https://abonto.github.io/E_Commerce-master/
 
-Para ejecutar la lista de productos y acceder a las funciones de administrador como crear, editar y eliminar productos, es necesario tener instalado la herramienta JSON server para trabajar con nuestra API REST; primero debes instalar esta herramienta con el siguiente comando: </br></br> `npm install -g json-server` </br></br> Ahora ya podrás acceder a esta función ubicandote en la carpeta del repositorio y ejecutando el siguiente comando: </br></br> `json-server -w db.json`. </br></br> Este comando creará un servidor local con la lista de productos y así podrás trabajar con la página.
+servidor local json-server -w db.json
+
+## Usuario
+mail@admin.com
+password Alura123
