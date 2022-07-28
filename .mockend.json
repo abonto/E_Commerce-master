@@ -1,0 +1,132 @@
+{
+    "productos": [
+      {
+        "seccion": "Consolas",
+        "nombre": "Xbox Serie X",
+        "precio": 800,
+        "image": "https://m.media-amazon.com/images/I/61JGKhqxHxL._SL1500_.jpg",
+        "descripcion": "Consola de nueva generación. Juegos de nueva generación. Embárcate en nuevas aventuras y vívelas como se merecen con la Xbox Series X",
+        "id": "9afac87e-d8ae-4f91-8bc4-ac8548f121c6"
+      },
+      {
+        "seccion": "StarWars",
+        "nombre": "Baby Yoda",
+        "precio": 85,
+        "image": "resources/Images/Productos/starwars1.png",
+        "descripcion": "Muñeco de Baby Yode\nColeccionable de The Mandalorian.",
+        "id": "b0ff876f-14f0-4564-b70c-c6966b046e6e"
+      },
+      {
+        "seccion": "StarWars",
+        "nombre": "Poster de Yoda",
+        "precio": 40,
+        "image": "./resources/Images/Productos/starwars6.png",
+        "descripcion": "Poster de Yoda tamaño grande",
+        "id": "592b3787-be17-4476-8e7e-df8cbe2d8234"
+      },
+      {
+        "seccion": "StarWars",
+        "nombre": "Máscara Darth Vader",
+        "precio": 80,
+        "image": "./resources/Images/Productos/starwars7.jpg",
+        "descripcion": "Mascara de Darth Vader.\nUtilizar correas para ajustar.\nIncluye máscara y instrucciones.",
+        "id": "6c373b12-11b4-4532-9cd8-e7e13ddfa721"
+      },
+      {
+        "seccion": "StarWars",
+        "nombre": "Set Lego",
+        "precio": 50,
+        "image": "resources/Images/Productos/starwars5.png",
+        "descripcion": "Set de lego de Darth Vader",
+        "id": "08c89101-aac5-4e2d-af04-0490ff9f5834"
+      },
+      {
+        "seccion": "StarWars",
+        "nombre": "Taza Storm Trooper",
+        "precio": 35,
+        "image": "resources/Images/Productos/starwars4.png",
+        "descripcion": "Taza con forma de casco.\nde Storm Trooper.",
+        "id": "880b1178-6485-4d73-b198-314a129d843b"
+      },
+      {
+        "seccion": "Diversos",
+        "nombre": "Drone",
+        "precio": 300,
+        "image": "resources/Images/Productos/diversos8.jpg",
+        "descripcion": "Drone cuatro helices\nControl Remoto",
+        "id": "9c424fbc-ac67-4880-8347-53d4c8d0bc70"
+      },
+      {
+        "seccion": "Diversos",
+        "nombre": "Muñeco Sonic",
+        "precio": 20,
+        "image": "resources/Images/Productos/diversos1.png",
+        "descripcion": "Muñeco de Sonic pequeño",
+        "id": "b93e31d8-2d2e-402f-800d-2ad1645efac0"
+      },
+      {
+        "seccion": "Diversos",
+        "nombre": "Remera Atari",
+        "precio": 15,
+        "image": "resources/Images/Productos/diversos3.png",
+        "descripcion": "100 % Algodón\n\nTalle M\n100% algodón de alta calidad ",
+        "id": "22b9d40a-9efd-48b8-964a-4d24cd74945d"
+      },
+      {
+        "seccion": "Diversos",
+        "nombre": "Remera Game Over",
+        "precio": 20,
+        "image": "resources/Images/Productos/diversos7.jpg",
+        "descripcion": "Remera Game Over Talle L",
+        "id": "d195dd35-50de-47a1-8b87-72371e876676"
+      },
+      {
+        "seccion": "Diversos",
+        "nombre": "Pikachu",
+        "precio": 35,
+        "image": "resources/Images/Productos/diversos6.png",
+        "descripcion": "Peluche Pikachu tamaño grande",
+        "id": "f7ed7f8a-8159-4adf-9c9f-32041d676611"
+      },
+      {
+        "seccion": "Consolas",
+        "nombre": "Oculus Quest 2",
+        "precio": 300,
+        "image": "https://coabimportaciones.com/wp-content/uploads/2020/09/Gafas-de-realidad-virtual-Oculus-Quest-2-64gb_1.jpg",
+        "descripcion": "Advanced All-In-One Virtual Reality Headset — 128 GB ",
+        "id": "b0f72998-fc3a-46fb-bb02-eb497900da35"
+      },
+      {
+        "seccion": "Consolas",
+        "nombre": "Control PS5",
+        "precio": 70,
+        "image": "https://m.media-amazon.com/images/I/61jRyJEPwRS._SL1500_.jpg",
+        "descripcion": "Da vida a los mundos de juego – Siente tus acciones en el juego y el entorno simulado a través de la respuesta táctil",
+        "id": "03a21422-578f-468f-a711-6e62f95748a8"
+      },
+      {
+        "seccion": "Consolas",
+        "nombre": "Xbox One",
+        "precio": 900,
+        "image": "https://m.media-amazon.com/images/I/51tRCUOUN6L.jpg",
+        "descripcion": "Edición limitada: modelo PEGI, para uso en Latam. Xbox One S Limited Edition Minecraft - Incluye 1 mes de suscripción de Xbox Game Pass ",
+        "id": "0a5c92e0-85d1-4ed4-b438-2d2798544cfa"
+      },
+      {
+        "seccion": "Consolas",
+        "nombre": "PlayStation 2",
+        "precio": 150,
+        "image": "https://m.media-amazon.com/images/I/41PGBPY97GL.jpg",
+        "descripcion": "El sistema Playstation 2 te permite jugar juegos originales de PS1, así como la gran selección de juegos de PS2 ",
+        "id": "fc3ab262-4c62-4296-98eb-d1e15d6eb5f9"
+      },
+      {
+        "seccion": "Consolas",
+        "nombre": "Xbox 360",
+        "precio": 250,
+        "image": "https://m.media-amazon.com/images/I/61oFqsoj9nL._SL1000_.jpg",
+        "descripcion": "Xbox 360 4GB Slim Console",
+        "id": "d1669e1a-ca53-4ac4-98c7-26d251e47f49"
+      }
+    ]
+  }
